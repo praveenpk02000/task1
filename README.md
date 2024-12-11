@@ -83,18 +83,19 @@ This is a comprehensive healthcare web application built using the **MERN stack 
 ### Prerequisites
 1. **Node.js** installed on your system.
 2. **MongoDB** server running locally or a cloud instance (e.g., MongoDB Atlas).
-3. Twilio credentials for OTP services.
+3. Nodemailer credentials for OTP services.
 
 ### Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/healthcare-app.git
-   cd healthcare-app
+   git clone https://github.com/RickyHarish/healthcare.git
+   cd healthcare
    ```
 
 2. Install dependencies:
    ```bash
+   cd backend
    npm install
    cd frontend
    npm install
