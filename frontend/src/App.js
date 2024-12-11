@@ -13,6 +13,7 @@ import DoctorSelection from './components/DoctorSelection';
 import AppointmentBooking from './components/AppointmentBooking';
 import AppointmentPreview from './components/AppointmentPreview'; // Import AppointmentPreview
 import ProtectedRoute from './components/ProtectedRoute';
+import ForgotPassword from './pages/ForgotPassword';
 
 const App = () => {
     return (
@@ -32,6 +33,7 @@ const App = () => {
                         <Login />
                         </ProtectedRoute>
                         } />
+                    <Route path='/forgot-password' element={<ForgotPassword />} />
                     <Route path="/admin" element={<AdminPanel />} />
                     <Route path="/verify-otp" element={<VerifyOtp />} />
                     <Route path="/doctor-selection" element={<DoctorSelection />} />
