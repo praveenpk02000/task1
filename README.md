@@ -64,7 +64,7 @@ This is a comprehensive healthcare web application built using the **MERN stack 
   - Server-side JavaScript runtime.
 - **Express.js**:
   - RESTful API framework.
-- **Twilio**:
+- **nodemailer**:
   - OTP-based verification.
 - **JWT (JSON Web Tokens)**:
   - Authentication and session management.
