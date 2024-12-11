@@ -23,10 +23,10 @@ const Register = () => {
                 phone,
             });
 
-            setMessage('Registration successful! Please log in.');
+            setMessage('An OTP sent to your email successfully! Please verify.');
             // Redirect to login page after successful registration
             setTimeout(() => {
-                navigate('/login'); // Navigate to login page
+                navigate('/verify-otp', { state: { email } }); // Navigate to login page
             }, 2000); // Redirect after 2 seconds
         } catch (error) {
             setMessage(error.response?.data?.message || 'Registration failed. Please try again.');
